@@ -206,21 +206,23 @@ span{
   }
 
   .btn{
-    background: var(--Dark-grid);
-    border: none;
+   
+    background: transparent;
+    border: 3px solid var(--brown);
+    color: var(--black);
     border-radius: 2rem;
     padding: 1rem 2rem 1rem 1rem;
     font-family: var(--Lexend);
-    font-weight: 500;
-    color: var(--white);
+    font-weight: 700;
     transition: backgorund, 3s;
     transition: color, 3s;
   }
 
   .btn:hover{
-    background: transparent;
-    border: 3px solid var(--brown);
+    background: var(--brown);
+    border: 1px solid var(--white);
+    color: var(--white);
     opacity: 0.8;
-    color: var(--black);
+    font-weight: 500;
   }
 /* xHome sitex */
