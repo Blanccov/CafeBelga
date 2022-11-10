@@ -96,7 +96,7 @@ span{
 }
 
 .social{
-    width: 80%;
+    width: 85%;
     margin: 0.5rem auto;
     justify-content: flex-end;
 }
@@ -108,7 +108,7 @@ span{
 
 .social-link{
     color: var(--white);
-    padding: 0 0.2rem;
+    padding: 0 0.6rem;
     font-size: 1.3rem;
 }
 
@@ -206,12 +206,13 @@ span{
   }
 
   .btn{
-   
-    background: transparent;
-    border: 3px solid var(--brown);
-    color: var(--black);
+    position: relative;
+    left: 12rem;
+    background: var(--brown);
+    border: 1px solid var(--white);
+    color: var(--white);
     border-radius: 2rem;
-    padding: 1rem 2rem 1rem 1rem;
+    padding: 1rem 2rem 1rem 2rem;
     font-family: var(--Lexend);
     font-weight: 700;
     transition: backgorund, 2s;
@@ -219,9 +220,9 @@ span{
   }
 
   .btn:hover{
-    background: var(--brown);
-    border: 1px solid var(--white);
-    color: var(--white);
+    background: transparent;
+    border: 3px solid var(--brown);
+    color: var(--black);
     opacity: 0.8;
     font-weight: 500;
   }
