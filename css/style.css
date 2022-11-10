@@ -20,6 +20,13 @@ html, body{
     --Josefin: Josefin, cursive;
     --Lexend: Lexend, cursive;
     --Livvic: Livvic, cursive;
+
+    /* gradient */
+
+    --Loon: linear-gradient(to left, #BDBBBE 0%, #9D9EA3 100%), radial-gradient(88% 271%, rgba(255, 255, 255, 0.25) 0%, rgba(254, 254, 254, 0.25) 1%, rgba(0, 0, 0, 0.25) 100%), radial-gradient(50% 100%, rgba(255, 255, 255, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%);
+    background-blend-mode: normal, lighten, soft-light;
+
+    --Dark-grid:linear-gradient(to right, #434343 0%, black 100%);
 }
 
 /* global */
@@ -199,17 +206,21 @@ span{
   }
 
   .btn{
-    background-color: var(--brown);
+    background: var(--Dark-grid);
     border: none;
     border-radius: 2rem;
     padding: 1rem 2rem 1rem 1rem;
     font-family: var(--Lexend);
     font-weight: 500;
-    
+    color: var(--white);
+    transition: backgorund, 3s;
+    transition: color, 3s;
   }
 
   .btn:hover{
     background: transparent;
     border: 3px solid var(--brown);
+    opacity: 0.8;
+    color: var(--black);
   }
 /* xHome sitex */
