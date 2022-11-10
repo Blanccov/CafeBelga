@@ -118,6 +118,22 @@ ul{
     justify-content: space-around;
 }
 
+.nav-links ul{
+    position: absolute;
+    opacity: 0.8;
+    display: none;
+    background-color: var(--white);
+}
+
+.nav-links li:hover > ul{
+    display: list-item;
+}
+
+.nav-links ul li a{
+    display: block;
+    padding: 0 15px;
+    line-height: 60px;
+}
 
 /*x Title site x*/
 
