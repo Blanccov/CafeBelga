@@ -142,7 +142,6 @@ span{
     display: block;
     padding: 0 5px 0 10px;
     line-height: 60px;
-    transition-duration: 5s;
 }
 
 .nav-links a::after {
@@ -197,5 +196,20 @@ span{
     height: 0.1em;
     background-color: var(--brown);
     opacity: 0.8;
+  }
+
+  .btn{
+    background-color: var(--brown);
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem 2rem 1rem 1rem;
+    font-family: var(--Lexend);
+    font-weight: 500;
+    
+  }
+
+  .btn:hover{
+    background: transparent;
+    border: 3px solid var(--brown);
   }
 /* xHome sitex */
