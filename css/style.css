@@ -1,14 +1,42 @@
+@import url(fonts.css);
+
 html, body{
     box-sizing: border-box;
     margin: 0;
-    overflow: hidden;
+    /* overflow-x: hidden; */
 }
+
+:root{
+
+    --brown: rgb(104, 89, 89);
+    --white: #ffff;
+    --black: rgb(0, 0, 0);
+    --gray: rgb(133, 133, 133);
+
+    /* Fonts */
+
+    --Abel: Abel, cursive;
+    --Anton: Anton, cursive;
+    --Josefin: Josefin, cursive;
+    --Lexend: Lexend, cursive;
+    --Livvic: Livvic, cursive;
+}
+
+/* global */
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+/* xglobalx */
 
 /* Title site */
 .title-back{
     width: 100%;
     height: 0rem;
-    min-height: 30vh;
+    min-height: 35vh;
     background: url(../assets/coffee5.jpg);
     background-size: cover;
     display: flex;
@@ -17,21 +45,91 @@ html, body{
 }
 
 .logo img{
-    width: 7rem;
+    width: 6rem;
     background-color: white;
     padding: 1rem;
     margin: 0;
     border-radius: 5rem;
+    
+}
+
+.logo img:hover{
+    background-color: var(--gray);
+}
+
+.logo{
+    width: 8rem;
     display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.logo-name:hover{
+    color: var(--gray);
 }
 
 .logo-name{
-    color: white;
-    display: flex;
-    justify-content: center;
+    width: 8rem;
+    color: var(--white);
+    text-align: center;
+    margin-top: 10%;
+    font-size: 1.4rem;
+    font-weight: bold;
+    font-family: var(--Livvic);
+    /* text-shadow: black 0.1em 0.1em 0.2em; */
 }
 
 .social{
-    margin: 1rem 1rem 0 0;
+    width: 80%;
+    /* margin: 1rem 1rem 0 0; */
+    /* align-self: flex-end; */
+    margin: 0.5rem auto;
+    justify-content: flex-end;
 }
+
+.social .social-links{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.social-link{
+    color: var(--white);
+    padding: 0 0.2rem;
+    font-size: 1.3rem;
+}
+
+.social-link:hover{
+    color: var(--gray);
+}
+
+.nav a{
+    color: var(--black);
+}
+
+.nav{
+    background-color: var(--white);
+    opacity: 0.8;
+    height: 5vh;
+    align-items: flex-end;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+}
+
+
 /*x Title site x*/
+
+/* Home site */
+.home-site{
+    height: 100vh;
+    background-image: url(/assets/cafe-5972490_1920.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+.home img{
+
+}
+/* xHome sitex */
