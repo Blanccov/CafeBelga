@@ -12,6 +12,7 @@ html, body{
     background: url(../assets/coffee5.jpg);
     background-size: cover;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
 }
 
