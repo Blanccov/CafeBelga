@@ -214,8 +214,8 @@ span{
     padding: 1rem 2rem 1rem 1rem;
     font-family: var(--Lexend);
     font-weight: 700;
-    transition: backgorund, 3s;
-    transition: color, 3s;
+    transition: backgorund, 2s;
+    transition: color, 2s;
   }
 
   .btn:hover{
