@@ -216,10 +216,11 @@ span{
     font-family: var(--Lexend);
     font-weight: 700;
     transition: backgorund, 2s;
-    transition: color, 2s;
+    transition: color, 1s;
   }
 
   .btn:hover{
+    cursor: pointer;
     background: transparent;
     border: 3px solid var(--brown);
     color: var(--black);
@@ -265,7 +266,7 @@ span{
     margin: 0 0 0 -2400px;
     position: relative;
     -webkit-animation-name: slide_animation;
-    -webkit-animation-duration: 23s;
+    -webkit-animation-duration: 13s;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-direction: alternate;
     -webkit-animation-play-state: running;
@@ -340,7 +341,7 @@ span{
 /* about site */
 
 .about-site{
-    height: 70vh;
+    height: 65vh;
     display: flex;
     flex-direction: column;
 }
@@ -352,6 +353,7 @@ span{
     top: 15vh;
     font-size: 1.5rem;
     color: var(--brown);
+    font-family: var(--Josefin);
  }
 
 .about-site .about-head h2{
@@ -360,6 +362,7 @@ span{
     left: 10%;
     top:10vh;
     font-size: 4rem;
+    font-family: var(--Josefin);
  }
  
  .about-head h2::after {
@@ -376,3 +379,71 @@ span{
 
 
 /* about site */
+
+/* form section */
+
+.form-site{
+    height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-site h2{
+    width: 80%;
+     position: relative;
+    left: 5%;
+    font-size: 3rem;
+    font-family: var(--Josefin);
+ }
+
+.to-top{
+    background-color: var(--brown);
+    height: 5vh;
+    width: 100%;
+    text-align: center;
+}
+
+.to-top:hover{
+    cursor: pointer;
+}
+
+.to-top span{
+    color: var(--white);
+    font-size: 1.5rem;
+}
+
+input{
+    border: none;
+    border-bottom: 3px solid var(--brown);
+    font-size: 2rem;
+    outline: 0;
+}
+
+input:focus{
+    border-bottom: 4px solid var(--brown);
+}
+
+form .btn{
+    position: relative;
+    left: 2rem;
+    background: var(--brown);
+    border: 1px solid var(--white);
+    color: var(--white);
+    border-radius: 2rem;
+    padding: 1rem 2rem 1rem 2rem;
+    font-family: var(--Lexend);
+    font-weight: 700;
+    transition: backgorund, 2s;
+    transition: color, 1s;
+  }
+
+form .btn:hover{
+    cursor: pointer;
+    background: transparent;
+    border: 3px solid var(--brown);
+    color: var(--black);
+    opacity: 0.8;
+    font-weight: 500;
+  }
+/* form section */
