@@ -3,7 +3,7 @@
 html, body{
     box-sizing: border-box;
     margin: 0;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
 }
 
 :root{
@@ -227,3 +227,152 @@ span{
     font-weight: 500;
   }
 /* xHome sitex */
+
+/* offer site */
+
+.offer-site{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.slider-frame{
+    overflow: hidden;
+    height: 800px;
+    width: 1200px;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+@-webkit-keyframes slide_animation{
+    0% {left:0px;}
+    10% {left: 0px;}
+    20% {left: 1200px;}
+    30% {left: 1200px;}
+    40% {left: 2400px;}
+    50% {left: 2400px;}
+    60% {left: 1200px;}
+    70% {left: 1200px;}
+    80% {left: 0px;}
+    90% {left: 0px;}
+    100% {left: 0px;}
+}
+
+.slide-images{
+    width: 3600px;
+    height: 800px;
+    margin: 0 0 0 -2400px;
+    position: relative;
+    -webkit-animation-name: slide_animation;
+    -webkit-animation-duration: 23s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+}
+
+.img-container{
+    height: 800px;
+    width: 1200px;
+    position: relative;
+    float: left;
+}
+
+.img-container img{
+    width: 1200px;
+}
+
+.offer-site .offer-text{
+    width: 20%;
+     position: relative;
+    left: 5%;
+    font-size: 4rem;
+ }
+ 
+ .offer-text span::after {
+     content: '';
+     position: absolute;
+     bottom: 0.2rem;
+     left: 0rem;
+     width: 100%;
+     height: 0.1em;
+     background-color: var(--brown);
+     opacity: 0.8;
+   }
+
+
+
+/* offer site */
+
+/* event site */
+
+.event-site{
+    background-image: url(/assets/michal-parzuchowski-ItaV89TNkks-unsplash.jpg);
+    background-size: cover;
+    background-position: bottom;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.event-text{
+    margin: 0 10rem 0 0;
+}
+
+
+
+.event-text span{
+    width: 20%;
+    position: relative;
+   left: 5%;
+   font-size: 5rem;
+   color: var(--white);
+}
+
+.event-text a{
+    color: var(--gray);
+}
+
+/* event site */
+
+/* about site */
+
+.about-site{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-site .about-text p{
+    width: 80%;
+     position: relative;
+    left: 15%;
+    top: 15vh;
+    font-size: 1.5rem;
+    color: var(--brown);
+ }
+
+.about-site .about-head h2{
+    width: 80%;
+     position: relative;
+    left: 10%;
+    top:10vh;
+    font-size: 4rem;
+ }
+ 
+ .about-head h2::after {
+     content: '';
+     position: absolute;
+     bottom: 0.2rem;
+     left: 0rem;
+     width: 50%;
+     height: 0.1em;
+     background-color: var(--brown);
+     opacity: 0.8;
+   }
+
+
+
+/* about site */
