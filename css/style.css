@@ -432,7 +432,7 @@ p{
 input{
     border: none;
     border-bottom: 3px solid var(--brown);
-    font-size: calc(15px + 1.7vw);
+    font-size: calc(10px + 1.7vw);
     outline: 0;
 }
 
@@ -442,6 +442,7 @@ input:focus{
 
 .form label{
     font-family: var(--Livvic);
+    font-size: calc(10px + 1vw);
 }
 
 .news{
