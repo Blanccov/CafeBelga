@@ -672,6 +672,7 @@ form .btn:hover{
      }
     .offer-site{
         flex-direction: column;
+        max-height: 55vh;
     }
     .offer-site .offer-text{
         width: 80%;
