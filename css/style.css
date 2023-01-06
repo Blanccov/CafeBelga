@@ -206,7 +206,7 @@ p{
     position: relative;
    left: 20%;
    top:30vh;
-   font-size: 4rem;
+   font-size:calc(20px + 2.5vw);
 }
 
 .home-text span::after {
@@ -295,14 +295,14 @@ p{
 }
 
 .img-container img{
-    width: 900px;
+    max-width: 900px;
 }
 
 .offer-site .offer-text{
     width: 20%;
      position: relative;
     left: 5%;
-    font-size: 4rem;
+    font-size: calc(15px + 2.5vw);
  }
  
  .offer-text span::after {
@@ -343,7 +343,7 @@ p{
     width: 20%;
     position: relative;
    left: 5%;
-   font-size: 4.7rem;
+   font-size: calc(20px + 2.5vw);
    color: var(--white);
 }
 
@@ -366,7 +366,7 @@ p{
      position: relative;
     left: 15%;
     top: 15vh;
-    font-size: 1.5rem;
+    font-size: calc(10px + 1vw);
     color: var(--brown);
     font-family: var(--Josefin);
  }
@@ -376,7 +376,7 @@ p{
      position: relative;
     left: 10%;
     top:10vh;
-    font-size: 4rem;
+    font-size: calc(20px + 2.5vw);
     font-family: var(--Josefin);
  }
  
@@ -408,7 +408,7 @@ p{
     width: 80%;
      position: relative;
     left: 5%;
-    font-size: 3rem;
+    font-size: calc(20px + 2vw);
     font-family: var(--Josefin);
  }
 
@@ -426,13 +426,13 @@ p{
 
 #to-top-btn span{
     color: var(--white);
-    font-size: 1.5rem;
+    font-size: calc(10px + 1vw);
 }
 
 input{
     border: none;
     border-bottom: 3px solid var(--brown);
-    font-size: 2rem;
+    font-size: calc(15px + 1.7vw);
     outline: 0;
 }
 
@@ -496,8 +496,8 @@ form .btn:hover{
 /* MENU GALLERY */
 
 .menu-gallery img{
-    width: 35rem;
-    height: 25rem;
+    max-width: 35rem;
+    max-height: 25rem;
 }
 
 .desserts-gallery, .drinks-gallery, .alcohol-gallery{
@@ -512,10 +512,15 @@ form .btn:hover{
     padding: 1rem;
 }
 
+.desserts-img p, .drinks-img p, .alcohol-img p{
+    font-size: calc(15px + 1.7vw);
+    margin-left: 12vw;
+}
+
 .menu-gallery h2{
     padding: 1rem 1rem 0 2rem;
     font-family: var(--Josefin);
-    font-size: 3rem;
+    font-size: calc(20px + 2vw);
 }
 
 .to-top{
@@ -545,7 +550,7 @@ form .btn:hover{
 }
 
 .event-size{
-    font-size: 2rem;
+    font-size: calc(15px + 1.7vw);
 }
 
 .events-text h1{
@@ -554,7 +559,7 @@ form .btn:hover{
 
 .events-text span{
     margin: 2rem 2rem 4rem 2rem;
-    font-size: 2rem;
+    font-size: calc(15px + 1.7vw);
 }
 
 .events-text{
@@ -573,7 +578,7 @@ form .btn:hover{
 /* CONTACT */
 
 .contact-site{
-    height: 80vh;
+    max-height: 110vh;
     background-image: url(../assets/tram-g17661441a_1920.jpg);
     background-size: cover;
     background-position: bottom;
@@ -587,7 +592,7 @@ form .btn:hover{
 
 .contact-text h1{
     text-decoration: underline var(--white);
-    font-size: 4rem;
+    font-size:calc(20px + 2.5vw);
 }
 
 .location{
@@ -657,93 +662,15 @@ form .btn:hover{
       .social-link{
         display: none;
       }
-
-      /* HOME */
-
-      .home-text span{
-        font-size: 2rem;
-        font-weight: 700;
-      }
-
-      .home-site .home-text{
-        width: 40%;
-         position: relative;
-        left: 20%;
-        top:30vh;
-        font-size: 4rem;
-     }
-      .offer-text span{
-        font-size: 2rem;
-      }
-
-      .offer-site .offer-text{
-        width: 80%;
-         position: relative;
-        left: 5%;
-        top: 15%;
-        font-size: 4rem;
-        margin: 0 1rem;
+      .social-phones{
+        display: flex;
      }
 
-     .img-container{
-        left: 150px;
-        top: 200px;
-     }
-
-      .img-container img{
-        width: 50%;
-      }
-
-      .offer-site{
-        flex-direction: column;
-      }
-
-      /* CONTACT */
-
-      .location{
-        flex-direction: column;
-      }
-
-      .contact-site{
-        height: 110vh;
-      }
-
-      .event-text span{
-        font-size: 2rem;
-      }
-
-      .about-head h2{
-        font-size: 2rem;
-      }
-      .about-site .about-text p{
-        font-size: 1rem;
-      }
-
-      .form-text h2{
-        font-size: 2rem;
-      }
-
-      input{
-        font-size: 1rem;
-    }
-    .form label{
-        font-size: 0.7rem;
-    }
-    .contact-text h1{
-        font-size: 2rem;
-    }
-    .address p{
-        font-size: 1rem;
-    }
-
-    /* EVENTS */
-
-    
 
     }
 
     .social-phones{
-       display: flex;
+       display: none;
     }
 
     .social-phone{
