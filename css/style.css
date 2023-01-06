@@ -200,6 +200,7 @@ p{
     background-image: url(/assets/cafe-5972490_1920.jpg);
     background-size: cover;
     background-position: top;
+    overflow-y: hidden;
 }
 
 .home-site .home-text{
@@ -722,7 +723,7 @@ form .btn:hover{
         }
 
         .about-site{
-            height: 100vh;
+            height: 120vh;
         }
     }
 
