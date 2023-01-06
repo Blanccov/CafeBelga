@@ -608,6 +608,7 @@ form .btn:hover{
 .hamburger{
     position: relative;
     float: left;
+    top: 7px;
     left: 20px;
     display: none;
     cursor: pointer;
@@ -653,6 +654,52 @@ form .btn:hover{
      .nav-links.active{
         top: 0;
       }
+      .social-link{
+        display: none;
+      }
+
+      /* HOME */
+
+      .offer-site{
+        height: 60vh;
+      }
+
+      .offer-text span{
+        font-size: 3rem;
+      }
+
+      .offer-site .offer-text{
+        width: 80%;
+         position: relative;
+        left: 5%;
+        top: 15%;
+        font-size: 4rem;
+        margin: 0 1rem;
+     }
+
+     .img-container{
+        left: 150px;
+        top: 200px;
+     }
+
+      .img-container img{
+        width: 50%;
+      }
+
+      .offer-site{
+        flex-direction: column;
+      }
+
+      /* CONTACT */
+
+      .location{
+        flex-direction: column;
+      }
+
+      .contact-site{
+        height: 100vh;
+      }
+
     }
 
     .social-phones{
@@ -660,7 +707,7 @@ form .btn:hover{
     }
 
     .social-phone{
-        margin: 0 0 0 40px;
+        margin: 10px 0 0 40px;
     }
 
 /* MEDIA EDIT RESPO */
