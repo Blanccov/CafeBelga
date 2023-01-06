@@ -632,20 +632,20 @@ form .btn:hover{
       }
      .nav-links{
         position: fixed;
-        left: -200%;
-        top: 70px;
+        left: 0;
+        top: -100%;
         gap: 0;
         flex-direction: column;
         background-color: var(--white);
         width: 100%;
         text-align: center;
-        transition: 0.3s;
+        transition: 0.8s;
       }
      .nav-item{
         margin: 16px 0;
       }
      .nav-links.active{
-        left: 0;
+        top: 0;
       }
     }
 
