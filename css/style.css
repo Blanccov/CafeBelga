@@ -6,6 +6,10 @@ html, body{
     overflow-x: hidden;
 }
 
+body{
+    overflow-y: hidden;
+}
+
 :root{
 
     --brown: rgb(104, 89, 89);
@@ -200,7 +204,6 @@ p{
     background-image: url(/assets/cafe-5972490_1920.jpg);
     background-size: cover;
     background-position: top;
-    overflow-y: hidden;
 }
 
 .home-site .home-text{
