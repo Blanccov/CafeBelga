@@ -26,7 +26,7 @@ const routes = {
     "/": "/pages/home.html",
     "/menu": "/pages/menu.html",
     "/events": "./pages/events.html",
-    "contect": "/pages/contact.html",
+    "/contact": "/pages/contact.html",
 };
 
 const handleLocation = async() => {
