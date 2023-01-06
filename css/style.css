@@ -536,7 +536,7 @@ form .btn:hover{
 /* EVENTS  */
 
 .events-img img{
-    width: 60rem;
+    max-width: 60rem;
     margin: 2rem;
 }
 
@@ -666,6 +666,42 @@ form .btn:hover{
       .social-phones{
         display: flex;
      }
+
+     .location{
+        flex-direction: column;
+     }
+    .offer-site{
+        flex-direction: column;
+    }
+    .offer-site .offer-text{
+        width: 80%;
+        margin: 1rem 0;
+     }
+
+     .img-container img{
+        width: 500px;
+    }
+    .img-container{
+        left: 200px;
+    }
+
+    @media(max-width:500px){
+        .img-container img{
+            width: 400px;
+        }
+        .img-container{
+            left: 250px;
+        }
+    }
+
+    @media(max-width:400px){
+        .img-container img{
+            width: 300px;
+        }
+        .img-container{
+            left: 300px;
+        }
+    }
 
 
     }
