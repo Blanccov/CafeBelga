@@ -16,7 +16,7 @@
             </span>
         </div>
         <div class="home-text">
-            <button class="btn">Check now!</button>
+            <button class="btn" onclick = "route1()" id="/menu">Check now!</button>
         </div>
     </div>
     <!--x Home site x-->
@@ -49,7 +49,7 @@
             <div class="event-text">
                 <span>
                     Our events areas are perfect for business breakfasts, team lunches, networking, drinks and canape receptions plus small partties and celebrations. 
-                    <a href="#">Check it!</a>
+                    <a href="/events" onclick="route()">Check it!</a>
                 </span>
             </div>
             <div class="image-event"></div>
@@ -79,11 +79,11 @@
     <!-- Form sectio -->
 
     <section class="form-section">
-       <a href="#top">
-            <div class="to-top" id="to-top-btn">
+       <!-- <a href="#top"> -->
+            <div class="to-top" id="to-top-btn" onclick="document.getElementById('top').scrollIntoView({behavior: 'smooth'})">
                 <span>to the top</span>
             </div>
-        </a>
+        <!-- </a> -->
         <div class="form-site">
             <div class="form-text">
                 <h2>

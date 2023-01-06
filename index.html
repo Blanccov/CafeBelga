@@ -29,13 +29,13 @@
                <li><a class="nav-link point">MENU<i class="fa-solid fa-sort-down"></i></a>
                <ul>
                 <li><a href="/menu" onclick="route()">DESSERTS</a></li>
-                <li><a href="/menu" onclick="route(), document.getElementById('drinks').scrollIntoView();">DRINKS</a></li>
-                <li><a href="/menu" onclick="route(), document.getElementById('alcohol').scrollIntoView();">ALCOHOL</a></li>
+                <li><a href="/menu" onclick="route(), document.getElementById('drinks').scrollIntoView({behavior: 'smooth'});">DRINKS</a></li>
+                <li><a href="/menu" onclick="route(), document.getElementById('alcohol').scrollIntoView({behavior: 'smooth'});">ALCOHOL</a></li>
             </li>
             </ul>
                <li><a href="/events" onclick="route()" class="nav-link">EVENTS</a></li>
                <li><a href="/contact" onclick="route()" class="nav-link">CONTACT</a></li>
-               <li><a href="/" onclick="route(), document.getElementById('toabout').scrollIntoView();" class="nav-link">ABOUT</a></li>
+               <li><a href="/" onclick="route(), document.getElementById('toabout').scrollIntoView({behavior: 'smooth'});" class="nav-link">ABOUT</a></li>
             </ul>
         </div>
     </div>

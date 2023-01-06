@@ -582,7 +582,7 @@ form .btn:hover{
 }
 
 .contact-text h1{
-    text-decoration: underline var(--brown);
+    text-decoration: underline var(--white);
     font-size: 4rem;
 }
 
@@ -595,5 +595,6 @@ form .btn:hover{
 .location p{
     color: var(--white);
 }
+
 
 /* CONTACT */

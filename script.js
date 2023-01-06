@@ -41,3 +41,11 @@ window.onpopstate = handleLocation;
 window.route = route;
 
 handleLocation();
+
+const route1 = (event) => {
+    scroll(0,0)
+    event = event || window.event;
+    event.preventDefault();
+    window.history.pushState({}, "", event.target.id);
+    handleLocation();
+};
