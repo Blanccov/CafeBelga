@@ -401,18 +401,19 @@ span{
     font-family: var(--Josefin);
  }
 
-.to-top{
+
+#to-top-btn{
     background-color: var(--brown);
     height: 5vh;
     width: 100%;
     text-align: center;
 }
 
-.to-top:hover{
+#to-top-btn:hover{
     cursor: pointer;
 }
 
-.to-top span{
+#to-top-btn span{
     color: var(--white);
     font-size: 1.5rem;
 }
