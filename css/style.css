@@ -424,6 +424,19 @@ input:focus{
     border-bottom: 4px solid var(--brown);
 }
 
+.form label{
+    font-family: var(--Livvic);
+}
+
+.news{
+    display: flex;
+    flex-direction: column;
+}
+
+form div{
+    padding: 1rem;
+}
+
 form .btn{
     position: relative;
     left: 2rem;
@@ -447,3 +460,15 @@ form .btn:hover{
     font-weight: 500;
   }
 /* form section */
+
+/* NAVBAR STICKY ANIMATION */
+
+.sticky{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+/* NAVBAR STICKY ANIMATION */
