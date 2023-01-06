@@ -371,7 +371,7 @@ p{
     font-family: var(--Josefin);
  }
 
-.about-site .about-head h2{
+    .about-head h2{
     width: 80%;
      position: relative;
     left: 10%;
@@ -660,12 +660,20 @@ form .btn:hover{
 
       /* HOME */
 
-      .offer-site{
-        height: 60vh;
+      .home-text span{
+        font-size: 2rem;
+        font-weight: 700;
       }
 
+      .home-site .home-text{
+        width: 40%;
+         position: relative;
+        left: 20%;
+        top:30vh;
+        font-size: 4rem;
+     }
       .offer-text span{
-        font-size: 3rem;
+        font-size: 2rem;
       }
 
       .offer-site .offer-text{
@@ -697,8 +705,40 @@ form .btn:hover{
       }
 
       .contact-site{
-        height: 100vh;
+        height: 110vh;
       }
+
+      .event-text span{
+        font-size: 2rem;
+      }
+
+      .about-head h2{
+        font-size: 2rem;
+      }
+      .about-site .about-text p{
+        font-size: 1rem;
+      }
+
+      .form-text h2{
+        font-size: 2rem;
+      }
+
+      input{
+        font-size: 1rem;
+    }
+    .form label{
+        font-size: 0.7rem;
+    }
+    .contact-text h1{
+        font-size: 2rem;
+    }
+    .address p{
+        font-size: 1rem;
+    }
+
+    /* EVENTS */
+
+    
 
     }
 
@@ -709,5 +749,7 @@ form .btn:hover{
     .social-phone{
         margin: 10px -10px 0 40px;
     }
+
+    
 
 /* MEDIA EDIT RESPO */
