@@ -536,7 +536,7 @@ form .btn:hover{
 /* EVENTS  */
 
 .events-img img{
-    max-width: 60rem;
+    width: 50vw;
     margin: 2rem;
 }
 
@@ -579,7 +579,7 @@ form .btn:hover{
 /* CONTACT */
 
 .contact-site{
-    max-height: 130vh;
+    max-height: 10vh;
     background-image: url(../assets/tram-g17661441a_1920.jpg);
     background-size: cover;
     background-position: bottom;
