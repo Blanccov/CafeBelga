@@ -603,6 +603,8 @@ form .btn:hover{
 
 .hamburger{
     position: relative;
+    float: left;
+    left: 20px;
     display: none;
     cursor: pointer;
 }
