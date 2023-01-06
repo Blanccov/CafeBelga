@@ -14,6 +14,7 @@ window.onscroll = function(){
 //routes
 
 const route = (event) => {
+    scroll(0,0)
     event = event || window.event;
     event.preventDefault();
     window.history.pushState({}, "", event.target.href);
@@ -33,6 +34,7 @@ const handleLocation = async() => {
     const route = routes[path] || routes[404];
     const html = await fetch(route).then((data) => data.text());
     document.getElementById("main-page").innerHTML = html;
+    
 };
 
 window.onpopstate = handleLocation;

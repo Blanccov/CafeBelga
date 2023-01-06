@@ -120,6 +120,11 @@ span{
     color: var(--gray);
 }
 
+p{
+    font-family: var(--Josefin);
+    font-size: 1.5rem;
+}
+
 /* xNavbarx */
 
 .nav a{
@@ -477,3 +482,37 @@ form .btn:hover{
 }
 
 /* NAVBAR STICKY ANIMATION */
+
+/* MENU GALLERY */
+
+.menu-gallery img{
+    width: 35rem;
+    height: 25rem;
+}
+
+.desserts-gallery, .drinks-gallery, .alcohol-gallery{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 1rem;
+}
+
+.desserts-img{
+    padding: 1rem;
+}
+
+.menu-gallery h2{
+    padding: 1rem 1rem 0 2rem;
+    font-family: var(--Josefin);
+    font-size: 3rem;
+}
+
+.to-top{
+    background-color: var(--brown);
+    height: 5vh;
+    width: 100%;
+    text-align: center;
+}
+
+/* MENU GALLERY */
