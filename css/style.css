@@ -728,7 +728,26 @@ form .btn:hover{
         .about-site{
             height: 120vh;
         }
+
     }
+
+    @media screen and (max-height: 500px){
+        .home-site{
+            height: 140vh;
+        }
+        
+        .offer-site{
+            height: 140vh;
+        }
+
+        .about-site{
+            height: 140vh;
+        }
+
+        .event-site{
+            height: 140vh;
+        }
+     }
 
     .social-phones{
        display: flex;
