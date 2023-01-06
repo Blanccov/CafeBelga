@@ -61,7 +61,7 @@ h1{
 /* Title site */
 .title-back{
     width: 100%;
-    height: 0rem;
+    min-height: 290px;
     min-height: 35vh;
     background: url(../assets/coffee5.jpg);
     background-size: cover;
@@ -140,7 +140,8 @@ p{
 .nav{
     background-color: var(--white);
     opacity: 0.8;
-    height: 5vh;
+    min-height: 55px;
+    max-height: 5vh;
     align-items: flex-end;
 }
 
@@ -665,6 +666,7 @@ form .btn:hover{
       }
       .social-phones{
         display: flex;
+        visibility: visible;
      }
 
      .location{
@@ -708,12 +710,25 @@ form .btn:hover{
             left: 300px;
         }
     }
+    }
 
+    @media screen and (max-height: 700px){
+        .home-site{
+            height: 120vh;
+        }
+        
+        .offer-site{
+            height: 120vh;
+        }
 
+        .about-site{
+            height: 100vh;
+        }
     }
 
     .social-phones{
-       display: none;
+       display: flex;
+       visibility: hidden;
     }
 
     .social-phone{
