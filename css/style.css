@@ -487,6 +487,10 @@ form .btn:hover{
     z-index: 1;
 }
 
+.sticky .social-link{
+    display: none;
+}
+
 /* NAVBAR STICKY ANIMATION */
 
 /* MENU GALLERY */
@@ -649,6 +653,14 @@ form .btn:hover{
      .nav-links.active{
         top: 0;
       }
+    }
+
+    .social-phones{
+       display: flex;
+    }
+
+    .social-phone{
+        margin: 0 0 0 40px;
     }
 
 /* MEDIA EDIT RESPO */

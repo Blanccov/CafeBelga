@@ -6,11 +6,12 @@ var navmenu = document.getElementById("navmenu")
 window.onscroll = function(){
     if(window.pageYOffset >= navmenu.offsetTop){
         nav.classList.add("sticky");
-    }else{
+    }
+
+    else{
         nav.classList.remove("sticky");
     }
 }
-
 //routes
 
 const route = (event) => {
