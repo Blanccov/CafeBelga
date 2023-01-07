@@ -636,6 +636,10 @@ form .btn:hover{
 }
 
 @media(max-width:768px){
+    .nav .social-phones{
+        display: flex;
+    }
+
     .hamburger{
         display: block;
       }
@@ -668,10 +672,6 @@ form .btn:hover{
       .social-link{
         display: none;
       }
-      .social-phones{
-        display: flex;
-        visibility: visible;
-     }
 
      .location{
         flex-direction: column;
@@ -747,11 +747,11 @@ form .btn:hover{
         .event-site{
             height: 140vh;
         }
+        
      }
 
     .social-phones{
-       display: flex;
-       visibility: hidden;
+       display: none;
     }
 
     .social-phone{
